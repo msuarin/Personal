@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <title>Disappearing circles</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style>
+		#circle {
+			background-color: red;
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+		}
+	</style>
+	
+</head>
+
+<body>
+	
+	<div id="circle"></div>
+	
+	<script type="text/javascript">
+	
+		//This is a comment
+		/*
+			This is a multi-line
+			comment
+		*/
+		document.getElementById("circle").onclick=function() {
+			document.getElementById("circle").style.display="none";
+			
+		}
+			document.getElementById("textAppender").onclick=function() {
+			document.getElementById("secondDiv").innerHTML = document.getElementById("secondDiv").innerHTML + "great!";
+		}
+		
+		document.getElementById("textCreator").onclick=function() {
+			document.getElementById("emptyDiv").innerHTML="<ul><li>Cat</li><li>Dog</li></ul>";
+		}
+		
+	</script>
+	
+</body>
+</html>

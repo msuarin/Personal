@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning jQuery</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"> </script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<style>
+		#square {
+			height: 200px;
+			width: 200px;
+			background-color: green;
+		}
+		#target {
+			height: 300px;
+			width: 300px;
+			background-color: yellow;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="accordion">
+	<h3>Title</h3>
+	<div>
+		<p>This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</p>
+	</div>
+	
+	<h3>Title</h3>
+	<div>
+		<p>Bacon ipsum dolor amet ham hock kielbasa short loin, doner strip steak pork chop filet mignon rump beef ribs turkey flank beef fatback picanha. Ball tip porchetta ground round, frankfurter tenderloin shoulder pastrami meatloaf landjaeger ham kevin filet mignon doner meatball venison. Cow jerky pastrami ground round short loin porchetta salami meatball drumstick chicken filet mignon kevin pork chop kielbasa bacon. Tail picanha jowl, ribeye sausage cow corned beef bresaola prosciutto.</p>
+	</div>
+	
+	<h3>Title</h3>
+	<div>
+		<p>Bacon ipsum dolor amet ham hock kielbasa short loin, doner strip steak pork chop filet mignon rump beef ribs turkey flank beef fatback picanha. Ball tip porchetta ground round, frankfurter tenderloin shoulder pastrami meatloaf landjaeger ham kevin filet mignon doner meatball venison. Cow jerky pastrami ground round short loin porchetta salami meatball drumstick chicken filet mignon kevin pork chop kielbasa bacon. Tail picanha jowl, ribeye sausage cow corned beef bresaola prosciutto.</p>
+	</div>
+	
+	<h3>Title</h3>
+	<div>
+		<p>Bacon ipsum dolor amet ham hock kielbasa short loin, doner strip steak pork chop filet mignon rump beef ribs turkey flank beef fatback picanha. Ball tip porchetta ground round, frankfurter tenderloin shoulder pastrami meatloaf landjaeger ham kevin filet mignon doner meatball venison. Cow jerky pastrami ground round short loin porchetta salami meatball drumstick chicken filet mignon kevin pork chop kielbasa bacon. Tail picanha jowl, ribeye sausage cow corned beef bresaola prosciutto.</p>
+	</div>
+	
+	<h3>Title</h3>
+	<div>
+		<p>Bacon ipsum dolor amet ham hock kielbasa short loin, doner strip steak pork chop filet mignon rump beef ribs turkey flank beef fatback picanha. Ball tip porchetta ground round, frankfurter tenderloin shoulder pastrami meatloaf landjaeger ham kevin filet mignon doner meatball venison. Cow jerky pastrami ground round short loin porchetta salami meatball drumstick chicken filet mignon kevin pork chop kielbasa bacon. Tail picanha jowl, ribeye sausage cow corned beef bresaola prosciutto.</p>
+	</div>
+	</div>
+	
+	<ul>
+		<li>Pizza</li>
+		<li>Chocolate</li>
+		<li>Tomatoes</li>
+		<li>Cheese</li>
+	</ul>
+	<script>
+		$("#accordion").accordion();
+		$("ul").sortable();
+	</script>
+	
+</body>
+</html>
